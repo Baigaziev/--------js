@@ -1,9 +1,20 @@
 //! имя из двух или более слов
 
-const userName = {
+// const userName = {
+//   name: `Erzhan`,
+//   age: 22,
+//   "likes Samira": true,
+// };
+// console.log(userName.name);
+// console.log(userName[`likes Samira`]);
+
+//! вычесляемое или передаваемое имя
+
+//? вычесляем имя
+ let firstPat = "likes";
+ let userInfo = {
   name: `Erzhan`,
   age: 22,
-  "likes Samira": true,
-};
-console.log(userName.name);
-console.log(userName[`likes Samira`]);
+  [firstPat + "javascript"]: true,
+ }
+ console.log(userInfo["likes javascript"])

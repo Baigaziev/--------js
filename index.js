@@ -11,10 +11,22 @@
 //! вычесляемое или передаваемое имя
 
 //? вычесляем имя
- let firstPat = "likes";
+//  let firstPat = "likes";
+//  let userInfo = {
+//   name: `Erzhan`,
+//   age: 22,
+//   [firstPat + "javascript"]: true,
+//  }
+//  console.log(userInfo["likes javascript"]);
+
+ //! передаем имя
+
+ let firstPat = `likes`;
  let userInfo = {
-  name: `Erzhan`,
-  age: 22,
-  [firstPat + "javascript"]: true,
+  name:`Erzhan`,
+  age: 23,
+  [firstPat]: true,
  }
- console.log(userInfo["likes javascript"])
+ console.log(userInfo[firstPat])
+
+ 

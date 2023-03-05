@@ -29,4 +29,8 @@
  }
  console.log(userInfo[firstPat])
 
+//! Преимущество квадратных скобок
+
+let key = `name`;
+console.log(userInfo[key])
  
